@@ -3,7 +3,7 @@
 
 Trabalho proposto para o 3º Semestre de Ciência da Computação, UNIP Sorocaba 2019.
 
-Aplicação desenvolvida utilizando [Create React App](https://github.com/facebook/create-react-app).
+Aplicação desenvolvida utilizando [Create React App](cgithub.com/facebook/create-react-app).
 
 ### Para roda-lo:
 ``` bash
@@ -23,6 +23,6 @@ Esta é a parte Front-end do projeto.
 
 ## Desenvolvido por:
 
-- [Elaine Mattos](github.com/elainemattos)
-- [Felipe Alves](github.com/FelipeAlves99/)
-- [Henrique Faria](github.com/RickMFF) 
+- [Elaine Mattos](https://github.com/elainemattos)
+- [Felipe Alves](https://github.com/FelipeAlves99/)
+- [Henrique Faria](https://github.com/RickMFF) 
