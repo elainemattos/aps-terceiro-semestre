@@ -1,0 +1,24 @@
+.Container{
+  margin: auto;
+  height: 70vh;
+  width: 50vw;
+  background: #A7BFE8;  /* fallback for old browsers */
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text{
+  color: aliceblue;
+}
+
+@media screen and (max-width: 950px){
+  .Container{
+    display: flex;
+    flex-direction: column;
+  }
+}
