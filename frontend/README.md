@@ -8,7 +8,7 @@ Aplicação desenvolvida utilizando [Create React App](cgithub.com/facebook/crea
 ### Para roda-lo:
 ``` bash
 yarn install
- yarn start
+yarn start
  ```
 
 > Estará disponivel em: [http://localhost:3000](http://localhost:3000).
