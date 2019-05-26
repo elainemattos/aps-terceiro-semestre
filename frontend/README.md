@@ -25,4 +25,4 @@ Esta é a parte Front-end do projeto.
 
 - [Elaine Mattos](https://github.com/elainemattos)
 - [Felipe Alves](https://github.com/FelipeAlves99/)
-- [Henrique Faria](https://github.com/RickMFF) 
+- [Henrique Faria](https://github.com/RickMFF)
