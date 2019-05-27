@@ -1,4 +1,4 @@
-body{
+body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   overflow: hidden;
   margin: 0;
@@ -14,13 +14,3 @@ body{
   display: flex;
   justify-content: center;
 }
-
-@media screen and (max-width: 480px){
-  .App{
-    display: row;
-    height: 100vh;
-    font-size: .75em;
-    justify-content: center;
-  }
-}
-

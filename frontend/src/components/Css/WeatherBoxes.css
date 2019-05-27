@@ -1,9 +1,16 @@
-.boxes{
-  padding: 30px;
-  color: white;
-}
-
-.dataFromJson{
+.dataFromJson {
   font-size: 1.75em;
   color: aliceblue;
+}
+
+ @media screen and (max-width: 900px) {
+  .dataFromJson{
+  font-size: 1em;
+  }
+}
+
+@media screen and (max-height: 300px){
+  .dataFromJson {
+  font-size: 1em;
+  }
 }
