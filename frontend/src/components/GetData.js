@@ -38,13 +38,14 @@ class Getdata extends Component {
   render() {
     return (
       <div>
-        <h1 className="text">Sorocaba, SP</h1>
+        <h1 className="TextIndex">Sorocaba, SP</h1>
         <div className="Container">
           <Temperature temperature={ this.state.temperature } />
           <Description description={ this.state.description }/>
           <Humidity humidity={ this.state.humidity }/>
         </div>
-        <h2 className="text">{this.state.date.toLocaleTimeString()}</h2>
+        <h2 className="TextIndex">{this.state.date.toLocaleTimeString()}</h2>
+        <button className="btnGet" onClick={this.getWeather}>Atualizar Temperatura</button>
       </div>
     );
   }

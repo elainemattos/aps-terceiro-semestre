@@ -4,7 +4,7 @@ import './Css/WeatherBoxes.css'
 const Humidity = ( { humidity } ) => {
   return (
     <div className="boxes">
-      <h2>Umidade</h2>
+      <h2 className="dataFromJson">Umidade</h2>
       <div className="dataFromJson">{ humidity } </div>
     </div>
   )
