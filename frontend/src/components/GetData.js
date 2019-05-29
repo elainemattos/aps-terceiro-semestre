@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Temperature from './weather-components/Temperature.js'
 import Description from './weather-components/Description.js'
 import Humidity from './weather-components/Humidity.js'
+import WeatherIcon from './weather-components/WeatherIcon'
 import './assets/css/GetData.css'
 
 class Getdata extends Component {
@@ -38,6 +39,7 @@ class Getdata extends Component {
   render() {
     return (
       <div>
+        <WeatherIcon description={ this.state.description } />
         <div className="Container">
           <Temperature temperature={ this.state.temperature } />
           <Description description={ this.state.description }/>

@@ -3,6 +3,11 @@
   color: aliceblue;
 }
 
+.wicon {
+  padding-top: 10px;
+  height: 30px;
+}
+
 .box {
   display: flex;
 }
