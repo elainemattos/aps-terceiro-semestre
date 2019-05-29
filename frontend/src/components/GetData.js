@@ -38,7 +38,6 @@ class Getdata extends Component {
   render() {
     return (
       <div>
-        <h1 className="TextIndex">Sorocaba, SP</h1>
         <div className="Container">
           <Temperature temperature={ this.state.temperature } />
           <Description description={ this.state.description }/>

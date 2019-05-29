@@ -1,5 +1,6 @@
 .Container {
   margin: auto;
+  margin-top: 50px;
   height: 70vh;
   width: 50vw;
   background: #A7BFE8;
@@ -9,7 +10,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  z-index: 30;
 }
 
 .TextIndex {
