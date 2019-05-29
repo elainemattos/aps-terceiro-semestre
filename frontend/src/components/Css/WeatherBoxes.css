@@ -6,11 +6,13 @@
  @media screen and (max-width: 900px) {
   .dataFromJson{
   font-size: 1em;
+  transition: all 0.2s ease 0s;
   }
 }
 
 @media screen and (max-height: 300px){
   .dataFromJson {
   font-size: 1em;
+  transition: all 0.2s ease 0s;
   }
 }
