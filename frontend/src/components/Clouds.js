@@ -20,10 +20,6 @@ const Clouds = () => {
           <div className="x4">
               <div className="cloud"></div>
           </div>
-
-          <div className="x5">
-              <div className="cloud"></div>
-          </div>
       </div>
     </div>
   )

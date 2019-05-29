@@ -9,7 +9,7 @@ body {
 }
 
 #background-wrap {
-  	bottom: 100px;
+  	bottom: 100px !important;
 	left: 0;
 	padding-top: 50px;
 	position: fixed;
@@ -89,17 +89,7 @@ body {
 	transform: scale(0.4);
 }
 
-.x5 {
-	-webkit-animation: animateCloud 25s linear infinite;
-	-moz-animation: animateCloud 25s linear infinite;
-	animation: animateCloud 25s linear infinite;
-
-	-webkit-transform: scale(0.55);
-	-moz-transform: scale(0.55);
-	transform: scale(0.55);
-}
-
-/* OBJECTS */
+/* clouds */
 
 .cloud {
 	background: #fff;
