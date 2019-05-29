@@ -45,7 +45,7 @@ class Getdata extends Component {
           <Description description={ this.state.description }/>
           <Humidity humidity={ this.state.humidity }/>
         </div>
-        <h2 className="TextIndex">{this.state.date.toLocaleTimeString()}</h2>
+        <h2>{this.state.date.toLocaleTimeString()}</h2>
         <button className="btnGet" onClick={this.getWeather}>Atualizar Temperatura</button>
       </div>
     );

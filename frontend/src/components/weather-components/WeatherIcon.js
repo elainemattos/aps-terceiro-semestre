@@ -10,11 +10,11 @@ const WeatherIcon = ( { description } ) => {
         {(function() {
         switch(description) {
           case 'Sem Chuva':
-            return <img className="wicon" src={ descrip } alt="temperature" />
+            return <img className="wicon" src={ descrip } alt="Sem Chuva" />
           case 'Chuva Fraca':
-            return <img className="wicon" src={ raining } alt="temperature" />
+            return <img className="wicon" src={ raining } alt="Chuva Fraca" />
           case 'Chuva Forte':
-            return <img className="wicon" src={ temp } alt="temperature" />
+            return <img className="wicon" src={ temp } alt="Chuva Forte" />
           default:
             return null;
         }
