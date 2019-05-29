@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/WeatherBoxes.css'
-import raining from '../images/raining.svg'
+import '../assets/css/WeatherBoxes.css'
+import raining from '../assets/images/raining.svg'
 
 const Description = ( { description } ) => {
   return (

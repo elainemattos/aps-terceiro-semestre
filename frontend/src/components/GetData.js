@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Temperature from './weather-components/Temperature.js'
 import Description from './weather-components/Description.js'
 import Humidity from './weather-components/Humidity.js'
-import './Css/GetData.css'
+import './assets/css/GetData.css'
 
 class Getdata extends Component {
 

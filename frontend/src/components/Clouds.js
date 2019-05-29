@@ -1,5 +1,5 @@
 import React from 'react';
-import './Css/Clouds.css'
+import './assets/css/Clouds.css'
 
 const Clouds = () => {
   return (

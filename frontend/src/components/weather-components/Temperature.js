@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/WeatherBoxes.css'
-import temp from '../images/temp.svg'
+import '../assets/css/WeatherBoxes.css'
+import temp from '../assets/images/temp.svg'
 
 
 const Temperature = ( { temperature } ) => {

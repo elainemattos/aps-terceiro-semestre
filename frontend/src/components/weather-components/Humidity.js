@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/WeatherBoxes.css'
-import descrip from '../images/descrip.svg'
+import '../assets/css/WeatherBoxes.css'
+import descrip from '../assets/images/descrip.svg'
 
 const Humidity = ( { humidity } ) => {
   return (
