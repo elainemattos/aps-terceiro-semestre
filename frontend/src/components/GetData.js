@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Temperature from './Temperature.js'
-import Description from './Description.js'
-import Humidity from './Humidity.js'
+import Temperature from './weather-components/Temperature.js'
+import Description from './weather-components/Description.js'
+import Humidity from './weather-components/Humidity.js'
 import './Css/GetData.css'
 
 class Getdata extends Component {
@@ -25,7 +25,7 @@ class Getdata extends Component {
   }
 
   getWeather = () => {
-    const data = require ('../data/felipe.json')
+    const data = require ('../data/dataArduino.json')
 
     this.setState({
       temperature: data.Temperatura,

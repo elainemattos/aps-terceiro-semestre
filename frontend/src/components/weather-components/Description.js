@@ -1,5 +1,5 @@
 import React from 'react';
-import './Css/WeatherBoxes.css'
+import '../Css/WeatherBoxes.css'
 
 const Description = ( { description } ) => {
   return (
