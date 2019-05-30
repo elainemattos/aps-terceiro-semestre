@@ -11,6 +11,11 @@ class Getdata extends Component {
     temperature: null,
     humidity: null,
     description: null,
+    date: new Date()
+  }
+
+  componentWillMount() {
+    this.getWeather();
   }
 
   componentDidMount() {
@@ -31,6 +36,8 @@ class Getdata extends Component {
       temperature: data.Temperatura,
       description: data.EstadoChuva,
       humidity:data.Umidade,
+      date: new Date()
+
     })
   }
 
@@ -43,6 +50,7 @@ class Getdata extends Component {
           <Description description={ this.state.description }/>
           <Humidity humidity={ this.state.humidity }/>
         </div>
+        <h2>{this.state.date.toLocaleTimeString()}</h2>
         <button className="btnGet" onClick={this.getWeather}>Atualizar Temperatura</button>
       </div>
     );
