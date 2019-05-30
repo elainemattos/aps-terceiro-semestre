@@ -1,8 +1,8 @@
 import React from 'react';
 import '../assets/css/WeatherBoxes.css'
-import descrip from '../assets/images/descrip.svg'
-import raining from '../assets/images/raining.svg'
-import temp from '../assets/images/temp.svg'
+import chuvaForte from '../assets/images/chuvaForte.svg'
+import chuvaFraca from '../assets/images/chuvaFraca.svg'
+import semChuva from '../assets/images/semChuva.svg'
 
 const WeatherIcon = ( { description } ) => {
   return (
@@ -10,11 +10,11 @@ const WeatherIcon = ( { description } ) => {
         {(function() {
         switch(description) {
           case 'Sem Chuva':
-            return <img className="wicon" src={ descrip } alt="Sem Chuva" />
+            return <img className="wicon" src={ semChuva } alt="Sem Chuva" />
           case 'Chuva Fraca':
-            return <img className="wicon" src={ raining } alt="Chuva Fraca" />
+            return <img className="wicon" src={ chuvaFraca } alt="Chuva Fraca" />
           case 'Chuva Forte':
-            return <img className="wicon" src={ temp } alt="Chuva Forte" />
+            return <img className="wicon" src={ chuvaForte } alt="Chuva Forte" />
           default:
             return null;
         }
