@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 import Getdata from './components/GetData'
-import Clouds from './components/Clouds.js'
+import Clouds from './components/Clouds'
 
 class App extends Component {
   render() {

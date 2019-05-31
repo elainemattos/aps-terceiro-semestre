@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Temperature from './weather-components/Temperature.js'
-import Description from './weather-components/Description.js'
-import Humidity from './weather-components/Humidity.js'
+import Temperature from './weather-components/Temperature'
+import Description from './weather-components/Description'
+import Humidity from './weather-components/Humidity'
 import WeatherIcon from './weather-components/WeatherIcon'
+import Timer from './Timer'
 import './assets/css/GetData.css'
 
 class Getdata extends Component {
@@ -20,7 +21,7 @@ class Getdata extends Component {
   componentDidMount() {
     this.stopFetch = setInterval(
       () => this.getWeather(),
-      60000
+      30000
     );
   }
 
@@ -47,7 +48,7 @@ class Getdata extends Component {
           <Description description={ this.state.description }/>
           <Humidity humidity={ this.state.humidity }/>
         </div>
-        <button className="btnGet" onClick={this.getWeather}>Atualizar Temperatura</button>
+        <Timer seconds={100}/>
       </div>
     );
   }
