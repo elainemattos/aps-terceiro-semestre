@@ -3,7 +3,6 @@ import Temperature from './weather-components/Temperature'
 import Description from './weather-components/Description'
 import Humidity from './weather-components/Humidity'
 import WeatherIcon from './weather-components/WeatherIcon'
-import Timer from './Timer'
 import './assets/css/GetData.css'
 
 class Getdata extends Component {
@@ -48,7 +47,6 @@ class Getdata extends Component {
           <Description description={ this.state.description }/>
           <Humidity humidity={ this.state.humidity }/>
         </div>
-        <Timer seconds={100}/>
       </div>
     );
   }
